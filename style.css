@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100vw;
+    height: auto;
+
+    /* border-inline: 30px solid #EFEFEF; */
+    /* border-top: 30px solid #EFEFEF; */
+}
+
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.navbar i{
+    display: none;
+}
+
+.navbar ul{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-right: 50%; */
+}
+
+.navbar button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+
+
+/* text-part */
+
+
+.text-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-part .text{
+    width: 37%;
+    height: auto;
+}
+
+.text-part .text h1{
+    font-size: 65px;
+    text-align: center;
+}
+
+.text-part .text p{
+    font-size: 20px;
+    text-align: center;
+    padding-block: 10px;
+}
+
+.text-part .text button{
+    margin-top: 15px;
+}
+
+.text-part .text span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-1{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    /* text-align: center; */
+}
+
+#btn-2{
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    /* color: white; */
+}
+
+.image-part{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.image-part img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:992px){
+
+    .main-container{
+        width: 100vw;
+        height: auto;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: auto;
+        /* padding: 4%; */
+    }
+    
+    .navbar ul{
+        width: 50%;
+        /* margin-right: 50%; */
+    }
+    
+    .navbar button{
+        width: 80px;
+        height: 30px;
+    }
+    
+    
+    /* text-part */
+    
+    
+    .text-part{
+        width: 100%;
+        height: auto;
+    }
+    
+    .text-part .text{
+        width: 50%;
+        height: auto;
+        padding-top: 10%;
+    }
+    
+    .text-part .text h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .text-part .text p{
+        font-size: 15px;
+        padding-block: 10px;
+    }
+    
+    .text-part .text button{
+        /* margin-top: 20%; */
+        font-size: 20px;
+    }
+    
+    #btn-1{
+        width: 200px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        margin-right: 10px;
+        /* text-align: center; */
+    }
+    
+    #btn-2{
+        width: 200px;
+        height: 40px;
+        background-color: white;
+        /* color: white; */
+    }
+    
+    .text span{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    } 
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+
+    .main-container{
+        width: 100vw;
+        height: auto;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: auto;
+    }
+    
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar i{
+        display: inline;
+        text-align: center;
+    }
+    
+    .navbar button{
+        width: 50px;
+        height: 30px;
+    }
+    
+    
+    /* text-part */
+    
+    
+    .text-part{
+        width: 100%;
+        height: auto;
+    }
+    
+    .text-part .text{
+        width: 60%;
+        height: auto;
+        padding-top: 10%;
+    }
+    
+    .text-part .text h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .text-part .text p{
+        font-size: 10px;
+        padding-block: 10px;
+    }
+    
+    .text-part .text button{
+        /* margin-top: 20%; */
+        font-size: 15px;
+    }
+    
+    #btn-1{
+        width: 150px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        margin-right: 10px;
+        /* text-align: center; */
+    }
+    
+    #btn-2{
+        width: 150px;
+        height: 40px;
+        background-color: white;
+        /* color: white; */
+    }
+    
+    .text span{
+        margin-top: 40%;
+    } 
+
+}
+
+
+
